@@ -1,0 +1,22 @@
+{
+  "name": "guarderia",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jose Salazar <jsalazar3300@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "flatly-theme": "https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/flatly/bootstrap.css"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "flatly-theme",
+  "_cacheHeaders": {
+    "ETag": "\"db4d989cae7ac7e74157547cda0ceecfaa6b6318\"",
+    "Content-Length": "152014",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:db4d989ca",
+  "main": "index.css",
+  "_source": "https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/flatly/bootstrap.css",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/thomaspark/bootswatch/gh-pages/flatly/bootstrap.css"
+}
