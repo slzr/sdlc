@@ -1,0 +1,115 @@
+$gris        = #ecf0f1
+$gris-oscuro = #95a5a6
+$primary     = #2c3e50
+$info        = #3498db
+$success     = #18bc9c
+
+// $footer_height = 232px
+html
+  height 100%
+  margin        0
+body
+  // min-height 100%
+  font-size 16px
+
+  
+.navbar-brand 
+  padding   0px
+  > img 
+    height  100%
+    padding 10px 15px 10px 5px
+    width   auto
+    display inline-block
+  span
+    font-weight 900
+    
+    
+.has-header
+  margin-top 60px
+
+.table>tbody>tr>td
+  vertical-align middle
+  
+.footer
+  bg            $success
+  width         100%
+  padding       25px 0 15px
+  margin-top    25px
+  border-bottom 10px solid rgba(black, .5)
+  .logo
+    text-align    center
+    margin-bottom 15px
+    h2
+      margin      5px 0 15px
+      font-weight 900
+      // display inline-block
+      // vertical-align middle
+    img
+      // vertical-align middle
+      width 75px
+      // display inline-block
+.big-logo
+  width  250px
+  margin 0 auto
+    
+form
+  textarea 
+    resize vertical
+  input[type=file]
+    border none
+    outline none
+    &:focus
+      outline none
+  &.login    
+    margin    0 auto
+    padding   75px 15px
+    overflow  auto
+    max-width 480px
+  
+.margin-top-xs
+  margin-top 5px
+  
+.profesor
+  font-weight bold
+  
+  span
+    font-weight normal
+    font-size .75em
+    
+.lista-estudiantes
+  margin     0
+  padding    0
+  list-style none
+  h3
+    font-weight bold
+  li
+    padding-left  15px
+    margin 0
+
+.what-is
+  bg            $primary
+  color         rgba(white, .9)
+  font-size     26px
+  text-align    center
+  margin-bottom 25px
+  p
+    padding       50px
+  
+.no-margin-bottom
+  margin-bottom 0
+  
+.padding-top-md
+  padding-top 25px
+.section
+  padding 35px 0
+  img
+    max-width 200px
+  &:nth-child(even)
+    bg $gris
+    
+.link-white
+  color           white
+  text-decoration none
+  &:hover
+    color           rgba(white, .75)
+    text-decoration none
